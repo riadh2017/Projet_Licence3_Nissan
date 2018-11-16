@@ -1,0 +1,73 @@
+body { margin:0; padding:0; font-size:11px; line-height:16px; font-family: Arial, Tahoma; font-weight: bold; color:black; background: url('images/back.png') ;}
+a { color:#fe5800; }
+a:hover {  }
+
+#title
+{position:absolute;
+font-family:'TYPOGRAPH PRO' ,sans-serif;
+font-weight:Bold;
+left:35%;
+font-size:3em;
+top:2px;
+color:rgb(255,255,255);
+text-shadow:5px 5px 2px black;
+}
+#header { 
+	background: url('images/header_bckg2.jpg') repeat-x ; 
+	height:120px; 
+}
+#logo { 
+	width:85px;height:77px;
+	position:relative;
+	top:20px;
+	left:20px;
+ }
+
+#section
+{
+	width:auto;
+	height:505px; 
+	padding:1px 1px 1px 1px;
+	overflow: auto;
+	
+	font-size:14px;
+}
+
+#menu {color:#fff; text-align:center; margin-top:7px; margin-left:50px; width:1200px; padding : 5px;}
+#menu ul{  margin:0 auto ;list-style:none; text-align:center;}
+#menu ul li{display:inline ;width:10px;}
+#menu ul a {
+display:inline-block; 
+width:140px;
+margin : 5 0 5 0;
+font-weight:bold ;
+font-size:13px;
+text-decoration:none;
+color:#fff;
+padding-bottom : 2px;
+text-align:center; 
+text-transform:uppercase;
+}
+#menu ul a:hover,#accuil,#commande,#livraison,#versement,#parametre,#proformat,#suivie_des_client
+{  
+     text-decoration:none; border-bottom : 3px solid #FFFFFF; 
+}
+
+
+
+#footer {background:url(images/header_bckg2.jpg) repeat-x  0 2px; height:40px; margin-top:0px;}
+#left_footer { float:left; padding:2px 0 0 30px; text-transform:uppercase; color:#FFFFFF; font-weight:bold; font-size:11px;}
+#left_footer a { color:#FFFFFF;}
+#left_footer a:hover { text-decoration:none;}
+#right_footer { float:right;  padding:2px 30px 0 0; text-transform:uppercase; color:#FFFFFF; font-weight:bold; font-size:11px; text-align:right;}
+#right_footer a { color:#FFFFFF;}
+#right_footer a:hover { text-decoration:none;}
+
+
+#nomero1{
+width: 100px; 
+color: white;
+text-align: center;
+background: url('images/header_bckg2.jpg');
+border:0px solid ;
+}

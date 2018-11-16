@@ -1,0 +1,547 @@
+﻿/**le menu  a gouche*/
+#right
+{
+	width: 80%;
+}
+#ajouter,#icon_add
+{
+	display: inline-block;
+}
+#supprimer,#icon_del
+{
+	display: inline-block;
+}
+#modifier,#icon_edit
+{
+	display: inline-block;
+}
+.lien
+{
+	display: block;
+	height: 50px;
+}
+#icon_add,#icon_del
+{
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: 10px;
+	margin-right: 10px;
+}
+#icon_edit
+{
+
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 10px;
+	margin-right: 10px;
+
+}
+.lien a
+{
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+.lien a:hover
+{
+	border-bottom : 3px solid #FFFFFF; 
+}
+#information
+{
+	text-align: center;
+	color: white;
+	font-size: 1.0em;
+	position: relative;
+	top:25%;
+}
+#liste_option
+{
+	margin-top: 60px;
+}
+/*fin de description*/
+
+
+
+
+
+
+
+
+/*com=commande
+recu=recu de versement
+att=attestation de disponibilite
+liv=bon de livraison
+*/
+#left
+ {
+ 	margin-top: 2px;
+ border-radius:6px;
+ display:inline-block;
+ width:230px;
+ height:98%;
+ background:url('left.png') repeat;
+ 
+ padding:2px 2px 2px 2px;
+}
+
+
+#right,#left
+{
+display:inline-block;
+vertical-align:top;
+}
+
+
+
+
+
+/*fin se style*/
+/*definir tout les bloc de creation de tout type de bon  -----------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------*/
+/*definir le style de bloc droit de bon de livraison*/
+#section_saisie_liv
+{
+padding:2px 2px 2px 2px;
+width:1125px;
+height:473px;
+vertical-align:top;
+margin-left:8px;
+
+}
+.text-liv,#select_client-liv,#modele-liv,#pc-liv,#lieu-liv,#chassis-liv,#mat-liv,#btn-save-liv,#btn-del-liv
+{
+	display: block;
+}
+#info-liv ,#client-liv,#btn-liv
+{
+display :inline-block;
+vertical-align:top;
+color:#2f2f2f;;
+}
+#client-liv1{
+display :inline-block;
+vertical-align:top;
+color:#2f2f2f;
+}
+#client-liv1
+
+{width: 1200px;
+	position:relative;
+left:10px;
+
+}
+
+#client-liv
+{position:relative;
+left:100px;
+
+}
+#info-liv 
+{
+position:relative;
+left:230px;
+}
+#btn-liv
+{
+position:relative;
+left:350px;
+text-align:center;
+margin-top:80px;
+}
+#btn-save-liv,#btn-del-liv
+{
+background-color: rgb(183,15,23);
+border:none;
+border-radius: 3px;
+font-size: 1.1em;
+color :white;
+height:40px;
+width: 180px;
+margin:15px;
+
+
+}
+#btn-del-liv:hover
+{
+filter: none; background-color: rgb(238,34,45);
+
+}
+h1
+{
+	color:#2f2f2f;
+}
+#btn-save-liv:hover
+{
+filter: none; background-color: rgb(238,34,45);
+}
+#select-client-liv,#modele-liv
+
+{
+width:220px;
+height:30px;
+font-size:1.1em;
+border-radius:5px;
+margin-bottom:20px;
+
+}
+#mat-liv,#lieu-liv,#chassis-liv,#pc-liv
+{
+	width: 200px;
+	height: 25px;
+	margin-bottom:20px;
+	border-radius: 3px;
+}
+#mat-liv:hover
+{background-color: rgb(255,233,233);}
+#lieu-liv:hover
+{background-color: rgb(255,233,233);}
+#chassis-liv:hover
+{background-color: rgb(255,233,233);}
+#pc-liv:hover
+{background-color: rgb(255,233,233);}
+#select-client-liv:hover
+{background-color:rgb(255,233,233);}
+#modele-liv:hover
+{
+background-color:rgb(255,233,233);
+}
+  
+
+/*le style de bloc droit d'attestation de disponipilite****************************************/
+
+
+#section_saisie-pro
+{
+padding:2px 2px 2px 2px;
+display:inline-block;
+width:1125px;
+height:473px;
+vertical-align:top;
+border-radius:5px;
+margin-left:8px;
+color:#2f2f2f;
+
+
+}
+
+
+
+
+#section_saisie-att
+{
+padding:2px 2px 2px 2px;
+width:1125px;
+height:473px;
+vertical-align:top;
+margin-left:8px;
+
+color:#2f2f2f;
+}
+
+
+.text-att,#select_client_att,#select_car_att,#date-att,#chassis-att
+{display:block;}
+
+#btn-att,#client-att,#info-att
+{
+display:inline-block;
+vertical-align:top;
+}
+#client-att
+{
+	margin-left:100px;
+}
+#info-att
+{
+margin-left:100px;}
+#btn-att
+{
+margin-left:100px;
+margin-top:60px;
+}
+#select_client_att,#select_car_att
+{
+	width:220px;
+height:30px;
+font-size:1.1em;
+border-radius:5px;
+margin-bottom:20px;
+
+}
+#date-att,#chassis-att
+{
+width: 200px;
+	height: 25px;
+	margin-bottom:20px;
+	border-radius: 3px;
+}
+
+#btn-save-att,#btn-del-att,#voir-attestation
+{
+margin:12px;
+display: block;
+}
+#btn-save-att,#btn-del-att
+{
+background-color: rgb(183,15,23);
+border:none;
+border-radius: 3px;
+font-size: 1.1em;
+color :white;
+height:40px;
+width: 180px;
+margin:15px;
+
+}
+
+#btn-save-att:hover
+{
+filter: none; background-color: rgb(238,34,45);
+}
+#btn-del-att:hover
+{filter: none; background-color: rgb(238,34,45);}
+#print-att
+{margin-left: 15px;}
+/*fin de style pour la partie attsztation des disponibilite*/
+/*------------------------------------------------------------------------------------------------*/
+#section-saisie-commande
+{
+padding:2px 2px 2px 2px;
+display:inline-block;
+width:1125px;
+height:473px;
+vertical-align:top;
+border-radius:5px;
+margin-left:8px;
+color:#2f2f2f;
+
+}
+.text-commande
+{
+	display: block;
+}
+#partie1,#items,#info-commande
+{
+	display:inline-block;
+vertical-align:top;
+}
+/*partie client + btn */
+#partie1{
+margin-left:0px;
+width:190px;
+}
+#items
+{margin-left: 15px;}
+#fisc-com,#tel-com,#reg-com,#nomclient-com,#adresse-com
+{
+
+    width: 200px;
+	height: 25px;
+	margin-bottom:10px;
+	border-radius: 3px;
+}
+#adresse1-com
+{
+width: 220px;
+	height: 30px;
+	margin-bottom:10px;
+	border-radius: 5px;
+}
+#btn-save-com,#btn-del-com
+{background-color: rgb(183,15,23);
+border:none;
+border-radius: 3px;
+font-size: 1.1em;
+color :white;
+height:40px;
+width: 180px;
+margin-bottom: 6px;
+margin-left: 10px;
+}
+#btn-save-com1
+{
+background-color: rgb(183,15,23);
+border:none;
+border-radius: 3px;
+font-size: 1.1em;
+color :white;
+height:40px;
+width: 180px;
+margin-bottom: 6px;
+margin-left: 10px;	
+}
+
+#btn-save-com2
+{
+background-color: rgb(183,15,23);
+border:none;
+border-radius: 3px;
+font-size: 1.1em;
+color :white;
+height:40px;
+width: 180px;
+margin-bottom: 6px;
+margin-left: 10px;	
+}
+
+#sup,#ajt
+{
+
+background-color: rgb(183,15,23);
+border:none;
+color :white;
+height:30px;
+font-size: 1.1em;
+width: 180px;
+border-radius: 3px; 
+margin-left:7px;
+margin-top: 15px;
+}
+#sup:hover
+{
+filter: none; background-color: rgb(238,34,45);border: none;
+}
+#ajt:hover
+{
+filter: none; background-color: rgb(238,34,45);border: none;
+}
+
+
+#ajt,#sup
+{
+display:inline-block;
+margin-bottom: 15px;
+}
+
+#btn-del-com:hover
+{
+filter: none; background-color: rgb(238,34,45);border: none;
+}
+#btn-save-com:hover
+{
+filter: none; background-color: rgb(238,34,45);border: none;
+}
+.select-com
+{
+width:220px;
+height:30px;
+font-size:1.1em;
+border-radius:5px;
+margin-bottom:8px;	
+}
+#delai-com,#montant-com
+{
+	width: 220px;
+	height: 30px;
+	margin-bottom:8px;
+	border-radius: 5px;
+}
+#items{
+width:635px;
+text-align:center;
+}
+#val1
+{
+width:220px;
+height:30px;
+font-size:1.1em;
+border-radius:5px;	
+}
+#qauntite-com
+{
+width:50px;
+height:25px;
+border-radius:3px;
+font-size:1.1em;
+}
+#couleur-com
+{
+width:100px;
+height:30px;
+border-radius:4px;
+font-size:1.1em;
+}
+#div
+{
+	margin-bottom: 6px;
+}
+
+
+/*dernier  partie la commande */
+/*fin de style pour le bon de commande*/
+
+
+
+/*recu de versemment ajouter*/
+#section-saisie-recu
+{
+padding:2px 2px 2px 2px;
+display:inline-block;
+width:1125px;
+height:473px;
+vertical-align:top;
+border-radius:5px;
+margin-left:8px;
+color:white;
+
+}
+.text-recu
+{display: block;
+}
+#info-recu,#client-recu
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#client-recu
+{
+	position: relative;
+	left: 200%;
+
+}
+#info-recu
+{
+	position: relative;
+	left: 350px;
+}
+#btn-save-recu,#btn-del-recu
+{
+display: block;
+background-color: rgb(183,15,23);
+border:none;
+border-radius: 3px;
+font-size: 1.1em;
+color :white;
+height:40px;
+width: 180px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+#btn-save-recu:hover
+{
+filter: none; background-color: rgb(238,34,45);border: none;
+}
+#btn-del-recu:hover
+{
+filter: none; background-color: rgb(238,34,45);border: none;
+}
+.select-client-recu
+{
+	width:200px;
+height:30px;
+font-size:1.1em;
+border-radius:5px;
+margin-bottom:20px;
+}
+#adresse-recu,#somme-recu,#versement-recu,#reste-recu
+{
+	width: 200px;
+	height: 25px;
+	margin-bottom:8px;
+	border-radius: 3px;
+}
+
+/*facture proformat*/

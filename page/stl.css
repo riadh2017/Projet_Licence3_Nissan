@@ -1,0 +1,246 @@
+#markdroite
+{
+  padding-top: 15px;
+  font-size: 15px;
+  padding-left: 200px;
+  font-weight: bold;
+
+}
+
+.assa
+{
+   line-height: 55px;
+   text-align: center;
+
+}
+#markgauche
+{
+  padding-top: 15px;
+  font-size: 15px;
+  padding-left: 110px;
+  font-weight: bold;
+
+}
+#fingauche
+{
+  margin-top: 0px;
+  padding-left: 180px;
+  font-size: 10;
+}
+#findroite
+{
+  padding-left: 150px;
+  font-size: 10;
+}
+#condition
+{
+  font-size: 10;
+  line-height: 20px;
+  margin-left: 3px;
+  margin-top: 0px;
+  
+}
+#montantenchiffre
+{
+ margin-top: -8px;
+  font-size: 9;
+
+}
+.prix
+{
+  font-size: 10;
+  font-weight: bold;
+  height: 11px;
+
+}
+.itemdes
+{
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 0px;
+}
+.montant
+{
+  border-top: 1px solid black;
+}
+.itemtr
+{
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 60px;
+    vertical-align: top;
+}
+.itemdes
+{
+  vertical-align: top;
+}
+.itemdes .couleur
+{
+  text-align: left;
+  margin-left: 30%;
+  font-size:15px;
+
+}
+
+.itemdes .vehicule
+{
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0px;
+  margin-bottom: 5%;
+  margin-top: 12px;
+  
+  
+
+}
+.ligne400
+{
+  border: 1px solid black;
+  border-top-right-radius: 15px;
+text-align: center;
+}
+#item
+{
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+#item td
+{
+  border: 1px solid black;
+  font-family: Times ,sans-serif;
+  padding: 0px;
+}
+.ligne41
+{
+  padding-bottom: 7px;
+  padding: 4px;
+  font-size: 13;
+}
+.ligne4
+{
+  border: 1px solid black;
+  text-align: center;
+
+
+}
+.ligne41
+{
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.ligne40
+{
+  background-color: rgb(240,240,240);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 11;
+  width: 220px;
+
+
+}
+.ligne3 p
+{font-size: 13px;
+ line-height: 6px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-weight: bold;
+
+}
+.ligne31,.ligne3
+{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding:4px; 
+  padding-top: 0px;
+}
+
+
+.ligne31
+{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.ligne2
+{
+  border:1px solid black;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+
+}
+#bon
+{
+text-decoration: underline;
+}
+#text1
+{
+  font-size: 10;
+}
+#titre1
+{
+  font-weight: bold;
+  font-size: 13;
+}
+#titre2
+{
+  margin-bottom: -10px;
+  font-size: 13;
+
+}
+
+#info
+{
+  font-family: Times ,sans-serif;
+}
+.titi
+{
+  height: 18px;
+  font-size: 16px;
+  width: 12px;
+}
+.itembloc
+{
+  height: auto;
+}
+.itemtr
+{
+  width: 20px;
+}
+#itit
+{
+  width: 10px;
+  max-width: 10px;
+  word-wrap:break-word;
+}
+#fin
+{
+  height: 10px;
+}
+#retour
+{
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 3px;
+  height: 30px;
+  border:none;
+  padding-top: 6px;
+  background: rgb(183,15,23);;
+}
+#retour:hover
+{
+   background-color: rgb(238,34,45);
+}
+.btn
+{
+  text-decoration: none;
+  position: absolute;
+  left: 60%;
+  bottom: 60%;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+}

@@ -1,0 +1,85 @@
+
+
+
+label ,input
+{
+display:block;
+margin-left:5px;
+}
+#boton_recherche
+{
+text-transform:uppercase;
+margin-left:25px;
+margin-top:10px;
+}
+
+.choix
+{
+
+padding-left:20px;
+padding-top:8px;
+padding-bottom:10px;
+}
+.choix:hover
+{
+background-color:rgb(183,15,23);
+
+
+}
+
+input 
+{
+clear:both;
+border-radius:5px;
+font-size:1.2em;
+width:190px;
+height:30px;
+
+
+}
+#titre_de_recherche
+{
+margin-left:12px;
+text-transform:uppercase;
+color:white;
+
+}
+#loupe
+{
+width:40px;
+height:40px;
+vertical-align:top;
+margin-left:50px;
+margin-top:8px;
+}
+#loupe ,#titre_de_recherche
+{display:inline-block;
+}
+#boton_recherche
+{
+background-color: rgb(183,15,23);
+border:none;
+color :white;
+height:40px;
+font-weight:bold;
+
+}
+#boton_recherche:hover
+{
+filter: none; background-color:RGBA(183,15,23,0.7);
+}
+
+
+
+ #left
+{
+margin-top: 12px;	
+ border-radius:6px;
+ display:inline-block;
+ width:260px;
+ height:475px;
+ color: white;
+ background-color:#2f2f2f;
+ padding:2px 2px 2px 2px;
+ 
+ }

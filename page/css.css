@@ -1,0 +1,39 @@
+.lien
+{
+	display: none;
+}
+*
+{
+	color:black;
+}
+
+h2
+{
+
+	text-decoration: underline;
+	text-align: center;
+	margin-top: 25%;
+}
+#date
+{
+	text-align: right;
+}
+#apres
+{
+	margin-left: 4px;
+}#mark1,#mark2
+{
+	display: inline-block;
+}
+a 
+{
+	display: block;
+}
+#mark2
+{
+	text-align:right; 
+}
+.btn
+{
+	display: none; 
+} 

@@ -1,0 +1,38 @@
+if((isset($_POST['designe']))and($_POST['designe'] != NULL)){
+
+$bool_identique = 0;
+
+$liste_item_test=1;
+$d1=0;
+$c1=0;
+$q1=0;
+/***************** teste designe ****************/
+
+               $tab_designation1[$d1] = $_POST['designe'];
+               $tab_couleur1 [$c1]= $_POST['couleur'];
+               $tab_quantite1 [$q1]= $_POST['quantite'];
+
+              while (isset($_POST['designe'.$liste_item_test])){
+             $d1=$d1+1; $c1=$c1+1;$q1=$q1+1; 
+               $tab_designation1[$d1] = $_POST['designe'.$liste_item_test];
+               $tab_couleur1 [$c1]= $_POST['couleur'.$liste_item_test];
+               $tab_quantite1 [$q1]= $_POST['quantite'.$liste_item_test];
+               $liste_item_test = $liste_item_test+1;
+                  }}
+
+for($i=0;$i<$liste_item_test-1;$i++)
+{
+for($j=1;$j<$liste_item_test;$j++)
+{
+ if(($tab_designation1[$i]==$tab_designation1[$j]) and ($tab_couleur1[$i]==$tab_couleur1[$j])) 
+ {
+$bool_identique=1;
+ }
+ }}
+
+if($bool_identique==1){
+
+header('Location:commande-ajouter.php?message=2');
+}
+else
+{

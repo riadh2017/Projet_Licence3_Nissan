@@ -1,0 +1,162 @@
+
+
+#right
+{
+margin-top: 10px;	
+padding:2px 2px 2px 2px;
+display:inline-block;
+width:200px;
+vertical-align:top;
+}
+#titre_de_tab td
+{
+padding:9px;
+
+border-bottom: 2px solid white;
+}
+.resultat td
+{
+color: white;
+padding:2px;
+border-bottom: 2px solid black;
+}
+#tab_de_resultat
+{
+width:1045px;
+height:auto;
+margin :auto;
+margin-left:25px;
+font-size:1.0em;
+border-collapse: collapse;
+}
+#titre_de_tab
+{
+text-align :left;
+background: #2f2f2f;
+color:white;
+text-transform:uppercase;
+font-size:.9em;
+font-weight:bold;
+padding:8px;
+}
+
+
+.resultat
+{
+background :url('images/header_bckg2.jpg') repeat-x;
+height:30px;
+max-height:30px;
+font-weight: bold;
+line-height:0px;
+color:rgb(227,243,240);
+}
+.nom 
+{
+width:250px;
+max-width:250px;
+overflow:hidden;
+}
+
+.numero 
+{
+width:150px;
+max-width:150px;
+overflow:hidden;
+}
+
+.modele
+{
+width:300px;
+max-width:300px;
+overflow:hidden;
+}
+.tel 
+{
+max-width:120px;
+width:120px;
+overflow:hidden;
+}
+.vendeur ,.versement
+{
+max-width:120px;
+width:120px;
+overflow:hidden;
+}
+.date
+{
+max-width:120px;
+width:120px;
+overflow:hidden;
+}
+
+.mode
+{
+width:60px;
+max-width:60px;
+overflow:hidden;
+}
+.action{
+	text-align: center;
+}
+
+
+/* pour livraison le tableau *//***********************************************************************************************/
+
+.nom1 
+{
+width:250px;
+max-width:250px;
+overflow:hidden;
+}
+.modele1
+{
+width:250px;
+max-width:250px;
+overflow:hidden;
+}
+.tel1 
+{
+max-width:120px;
+width:120px;
+overflow:hidden;
+}
+.versement1
+{
+max-width:120px;
+width:120px;
+overflow:hidden;
+}
+
+.vendeur1 
+{
+
+max-width:200px;
+width:200px;
+overflow:hidden;
+
+}
+.date1
+{
+max-width:120px;
+width:120px;
+overflow:hidden;
+}
+
+.mode1
+{
+width:80px;
+max-width:60px;
+overflow:hidden;
+}
+
+#input_modif{width: 60px; border-radius: 10px;border: 5px solid transparent; background: #2f2f2f; color: white;}
+#input_modif:hover{width: 60px; border-radius: 10px; background: white; color: #2f2f2f;}
+
+
+#nomero1{
+width: 90px; 
+color: white;
+text-align: center;
+background: url('images/10.jpg');
+}
+

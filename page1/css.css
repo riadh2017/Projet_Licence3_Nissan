@@ -1,0 +1,191 @@
+
+#markdroite
+{
+  padding-top: 15px;
+  font-size: 15px;
+  padding-left: 200px;
+  font-weight: bold;
+
+}
+#markgauche
+{
+  padding-top: 15px;
+  font-size: 15px;
+  padding-left: 110px;
+  font-weight: bold;
+
+}
+#fingauche
+{
+  margin-top: 0px;
+  padding-left: 180px;
+  font-size: 12;
+}
+#findroite
+{
+  padding-left: 150px;
+  font-size: 12;
+}
+#condition
+{
+  font-size: 10;
+  line-height: 20px;
+  margin-left: 3px;
+}
+#montantenchiffre
+{
+  margin:0px;
+  font-size: 9;
+
+}
+.prix
+{
+  font-size: 12;
+  font-weight: bold;
+
+}
+.itemdes
+{
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 0px;
+}
+.montant
+{
+  border-top: 1px solid black;
+}
+.itemtr
+{
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 45px;
+}
+.itemdes .couleur
+{
+  text-align: left;
+  margin-left: 65px;
+  margin-bottom: 28px;
+
+}
+.itemdes .vehicule
+{
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0px;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  
+
+}
+.ligne400
+{
+  border: 1px solid black;
+  border-top-right-radius: 15px;
+text-align: center;
+}
+#item
+{
+  border-collapse: collapse;
+}
+#item td
+{
+  border: 1px solid black;
+  font-family: Times ,sans-serif;
+  padding: 0px;
+}
+.ligne41
+{
+  padding-bottom: 7px;
+  padding: 4px;
+  font-size: 13;
+}
+.ligne4
+{
+  border: 1px solid black;
+  text-align: center;
+
+
+}
+.ligne41
+{
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.ligne40
+{
+  background-color: rgb(240,240,240);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 11;
+
+
+}
+.ligne3 p
+{font-size: 13px;
+
+  line-height: 0px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-weight: bold;
+
+}
+.ligne3,.ligne31
+{
+  border: 1px solid solid;
+  border-radius: 15px;
+  padding:4px; 
+  padding-top: 0px;
+}
+.ligne31
+{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.ligne2
+{
+  border:1 px solid black;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+#bon
+{
+  position: relative;
+  top:70px;
+  text-align: center;
+  text-decoration: underline;
+}
+#text1
+{
+  font-size: 10;
+}
+#titre1
+{
+  font-weight: bold;
+  font-size: 13;
+}
+#titre2
+{
+  margin-bottom: -10px;
+  font-size: 13;
+
+}
+#logo_nissan
+{
+  width: 85px;
+  height: 75px;
+}
+#slogo,
+{position: absolute;
+  left: 490px;
+  top: 8mm; 
+}
+#info
+{
+  font-family: Times ,sans-serif;
+}
+
+
